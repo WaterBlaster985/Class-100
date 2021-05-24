@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <h1>Voice Selfie App</h1>
+    <img id= "dude"src="selfie kid.jpeg">
+    <br>
+    <br>
+    <h4>Please press allow when your popup comes up following your voice command</h4>
+    <h2>Say "take my Selfie"</h2>
+    <p>Your voice output: </p>
+    <textarea id="voice" cols="30" rows="3"></textarea>
+    <br>
+    <button id="start" onclick= "selfie()">Press to record voice</button>
+    <h5>Your webcam:</h5>
+    <div id="webcam"></div>
+    <h5>Your selfie will display here:</h5>
+    <div id="selfie"></div>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+</body>
+</html>

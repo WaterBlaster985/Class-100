@@ -1,0 +1,23 @@
+h4{
+    color: red;
+}
+body{
+    text-align: center;
+}
+#dude{
+    height: 121px;
+    width: 150px;
+    border-radius: 1000px;
+}
+button{
+    background-color: blanchedalmond;
+    border-color: red;
+    padding: 5px 10px;
+    font-size: 14px;
+}
+#webcam{
+    width: 360px;
+    height: 240px;
+    border: 1px solid gray;
+    margin: auto;
+}
